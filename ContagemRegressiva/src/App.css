@@ -1,0 +1,30 @@
+.App{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  min-width: 50%;
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid #ecb40db6;
+}
+
+.contagem-regressiva{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contagem-regressiva{ gap: 1.5vw;}
+  
+}
