@@ -1,0 +1,6 @@
+npm install
+
+npm install axios
+
+npm rum dev - Pegar o host para visualizar a página
+Ctrl + c - para finalizar
