@@ -42,16 +42,73 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(94,91,84,1) 100%);
+}
+
 .box-maior{
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.9%;
 }
 
-
 .box-perfil{
+  width: auto;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: 2px solid gray;
+  border-radius: 5%;
+}
+
+#lb-usuario{
+  color: #646cff;
+  margin-top: 30%;
+  margin-left: 2%;
+  visibility: hidden;
+}
+
+#img-perfil{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  visibility: hidden;
+}
+
+input{
+  height: 20px;
+  margin-right: 5px;
+  background: white;
+  border: 2px solid gray;
+  border-radius: 5%;
+  outline: none;
+}
+
+input:focus{
+  background-color: aliceblue;
+}
+
+#btn-buscar{
+  color: white;
+  background: blueviolet;
+  background-color: blueviolet;
+}
+
+fieldset{
+  border-color: gray;
+  border-radius: 5%;
+}
+
+.li-repo{
+  text-align: start;
 }
