@@ -60,6 +60,31 @@ body{
   border-radius: 1.9%;
 }
 
+.box-input{
+  justify-content: start;
+}
+
+input{
+  height:36.2px;
+  width: 177px;
+  font-size: large;
+  margin-right: 5px;
+  background: white;
+  border: 2px solid gray;
+  border-radius: 5%;
+  outline: none;
+}
+
+input:focus{
+  background-color: aliceblue;
+}
+
+#btn-buscar{
+  color: white;
+  background: blueviolet;
+  background-color: blueviolet;
+}
+
 .box-perfil{
   width: auto;
   padding: 5px;
@@ -83,25 +108,6 @@ body{
   border-radius: 100%;
   border: 1px solid gray;
   visibility: hidden;
-}
-
-input{
-  height: 20px;
-  margin-right: 5px;
-  background: white;
-  border: 2px solid gray;
-  border-radius: 5%;
-  outline: none;
-}
-
-input:focus{
-  background-color: aliceblue;
-}
-
-#btn-buscar{
-  color: white;
-  background: blueviolet;
-  background-color: blueviolet;
 }
 
 fieldset{

@@ -52,7 +52,7 @@ function App() {
       <div className='box-maior'>
 
         <div className='box-input'>
-          <input type="text" value={usuario} onChange={e => setUsuario(e.target.value)}/>
+          <input type="text" placeholder=' Insira o usuário' value={usuario} onChange={e => setUsuario(e.target.value)}/>
           <button onClick={handleBuscar} id='btn-buscar'>Pesquisar</button>
         </div>
 
