@@ -10,6 +10,11 @@ function App() {
     // axios.get(`https://api.github.com/users/${usuario}`).then(response => console.log(response.data))
     // axios.get(`https://api.github.com/users/${usuario}/repos`).then(response => console.log(response.data))
 
+    //Implementando o consumo da api por Axios invés de fetch
+    // const api = axios.create({
+    //   baseURL: "https://api.github.com",
+    // });
+
     buscarDados(usuario);
   }
 
